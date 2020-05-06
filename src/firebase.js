@@ -4,7 +4,7 @@ import "firebase/auth"; // auth
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBb37Dnz3-RI0Otbo4-h5sMc6nNWuIV0Ks",
+  apiKey: `${process.env.apiKey}`,
   authDomain: "think-piece-8b070.firebaseapp.com",
   databaseURL: "https://think-piece-8b070.firebaseio.com",
   projectId: "think-piece-8b070",
